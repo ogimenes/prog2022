@@ -1,0 +1,14 @@
+h1{
+    background-color: rgb(148, 148, 148); border: 2px dotted blue;
+    width: 70%;
+    margin: 0 auto;
+}
+P{
+    font-size: 18pt;
+}
+.multi3 {
+    font-size: 24pt; color: brown;
+}
+#especial{
+    background-color: grey;
+}
