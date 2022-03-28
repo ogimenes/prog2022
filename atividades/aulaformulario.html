@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulários</title>
+</head>
+<body>
+    
+    <h1>Formulário de inscrição em eventos</h1>
+     <fieldset style="width: 34%;">
+     <div id="field1">
+        <label for="nome">Nome completo:</label>
+     <input type="text" name="nome" id="nome" placeholder="Insira o seu nome">
+     
+     <br><br>
+     
+     <br><label for="email">E-mail:</label>
+     <input type="text" name="email" id="email" placeholder="ex: exemplo@exemplo.com">
+      
+     <br><br>
+
+     <br><label for="sexo">Sexo:</label>
+     <label><input type="radio" name="sexo" value="m" id="masc" checked>Masculino</label>
+     <input type="radio" name="sexo" value="f" id="fem">Feminino</label>
+
+     <br><br>
+
+     <br><label for="cargo">Cargo:</label>
+     <input type="text" name="cargo" id="cargo" placeholder="ex: Vendedor">
+      
+     <br><br>
+
+     <br><label for="idade">Data de nascimento:</label>
+     <input type="date" name="idade" id="idade">
+
+     <br><br>
+
+     <br><label for="tele">Telefone:</label>
+     <input type="text" name="tele" id="tele" placeholder="(XX) XXXXX-XXXX">
+      
+     <br><br>
+    </div>
+    </fieldset>  
+     
+     <h2>Informações da Instituição</h2>
+     <p>Preencha os campos abaixo com as informações da empresa em que trabalha</p>
+    
+     <fieldset id="field 2" style="width: 34%;">
+     
+     <label for="empresa">Empresa:</label>
+     <input type="text" name="empresa" id="empresa" placeholder="ex: Bemol">
+     
+     <br><br>
+     
+     <br><label for="endereco">Endereço completo:</label>
+     <input type="text" name="endereco" id="endereco">
+      
+     <br><br>
+
+     <br><label for="cidade">Cidade:</label>
+     <input type="text" name="cidade" id="cidade">
+
+     <br><br>
+
+     <label for="estado">Estado:</label>
+     <select name="estado"> 
+       <option selected disabled>Selecione</option>
+       <option value="AC">Acre</option>
+       <option value="AL">Alagoas</option>
+       <option value="AP">Amapá</option>
+       <option value="AM">Amazonas</option>
+       <option value="BA">Bahia</option>
+       <option value="CE">Ceará</option>
+       <option value="DF">Distrito Federal</option>
+       <option value="ES">Espírito Santo</option>
+       <option value="GO">Goiás</option>
+       <option value="MA">Maranhão</option>
+       <option value="MT">Mato Grosso</option>
+       <option value="MS">Mato Grosso do Sul</option>
+       <option value="MG">Minas Gerais</option>
+       <option value="PA">Pará</option>
+       <option value="PB">Paraíba</option>
+       <option value="PR">Paraná</option>
+       <option value="PE">Pernambuco</option>
+       <option value="PI">Piauí</option>
+       <option value="RJ">Rio de Janeiro</option>
+       <option value="RN">Rio Grande do Norte</option>
+       <option value="RS">Rio Grande do Sul</option>
+       <option value="RO">Rondônia</option>
+       <option value="RR">Roraima</option>
+       <option value="SC">Santa Catarina</option>
+       <option value="SP">São Paulo</option>
+       <option value="SE">Sergipe</option>
+       <option value="TO">Tocantins</option>
+     </select>
+      
+     <br><br>
+
+     <br><label for="func">Quant. Funcionarios:</label>
+     <input type="number" name="func" id="func">
+
+     <br><br>
+
+     <br><label for="observa">Observações:</label>
+     <textarea id="observa" name="observa" rows="10" cols="50" placeholder="Digite sua Observação..."></textarea>
+     <br><br>
+    </fieldset>  
+    <br>
+    <label>Emitir recibo em nome da instituição?<input type="checkbox" name="bras"> 
+    <br><br>
+    <br><input type="submit" value="Fazer inscrição">
+    </label>
+</body>
+</html>
