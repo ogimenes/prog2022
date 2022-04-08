@@ -1,0 +1,64 @@
+/*#teste{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    margin: 0 auto;
+}*/
+html, body{
+   /* background-image: url(https://pbs.twimg.com/media/EPJhLM0X4AMpXEH.jpg);*/
+    margin: 0px;
+    padding: 0px;
+}
+#princ{
+   /* background-image: url(https://pbs.twimg.com/media/EPJhLM0X4AMpXEH.jpg);*/
+    width: 80%;
+    height: 100%;
+    min-width: 320px;
+    margin: 0 10%;
+    border: dotted blue;
+    position: absolute
+}
+#header{
+    height: 10%;
+    min-height: 50px;
+    background: linear-gradient(#ff0000, #c7c);
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+#div1{
+    background-color: gray;
+}
+#div2{
+    background-color: aquamarine;
+}
+#div3{
+    background-color: brown;
+}
+#div4{
+    background-color: bisque;
+}
+#rodape{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+    color: hotpink;
+    height: 10%;
+    width: 100%;
+    min-height: 50px;
+    left: 0;
+}
+.interna{
+    width: 25%;
+    height: 80%;
+    padding: 0.5em;
+    border: 2px solid black;
+    border-radius: 1em;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    overflow: auto;
+
+}
