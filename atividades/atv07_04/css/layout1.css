@@ -22,7 +22,7 @@ html, body{
 #header{
     height: 10%;
     min-height: 50px;
-    background: linear-gradient(#ff0000, #c7c);
+    background: linear-gradient(#7f68e4, #c7c);
     font-size: 2rem;
     color: rgb(255, 255, 255);
     text-align: center;
